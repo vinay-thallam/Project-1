@@ -7,7 +7,7 @@ Below is the link to the notebook for the assignment. Have added comments in the
 https://colab.research.google.com/drive/1tXjiQtNRpRGu3TC-F8iTuQrwhOrgmTby
 
 
-# Assignment 1A
+# Assignment 1B
 
 ## What are Channels and Kernels (according to EVA)?
 
