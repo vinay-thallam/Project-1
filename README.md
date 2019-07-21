@@ -29,20 +29,20 @@ Because a 3X3 kernel can be repeated many times to get any size we want. For exa
 We need to add 99 layers of convolution using 3X3 kernel to get to 1X1 image starting fom 199X199, since each layer reduces the resolution by 2 pixel. ( Without adding any MaxPool operartion)
 
 
-199X199 | 3X3 > 197X197
-197X197 | 3X3 > 195X195
-195X195 | 3X3 > 193X193
-193X193 | 3X3 > 191X191
-191X191 | 3X3 > 189X189
-189X189 | 3X3 > 187X187
-.
-.
-.
-.
-.
-.
-9X9 | 3X3 > 7X7
-7X7 | 3X3 > 5X5
-5X5 | 3X3 > 3X3
-3X3 | 3X3 > 1X1
+199X199 | 3X3 > 197X197<br/>
+197X197 | 3X3 > 195X195<br/>
+195X195 | 3X3 > 193X193<br/>
+193X193 | 3X3 > 191X191<br/>
+191X191 | 3X3 > 189X189<br/>
+189X189 | 3X3 > 187X187<br/>
+.<br/>
+.<br/>
+.<br/>
+.<br/>
+.<br/>
+.<br/>
+9X9 | 3X3 > 7X7<br/>
+7X7 | 3X3 > 5X5<br/>
+5X5 | 3X3 > 3X3<br/>
+3X3 | 3X3 > 1X1<br/>
 
